@@ -89,17 +89,3 @@ function copiar() {
 
     document.getElementById("textoEncriptado").textContent = " ";
 }
-
-
-var nn = "aiperoai";
-var a = nn.replace('ai','a');
-
-
-console.log(a.indexOf('ai'));
-var num = 0;
-while(a.indexOf('ai') >= num){
-    a = a.replace('ai','a');
-    console.log(4);
-}
-
-console.log(a);
